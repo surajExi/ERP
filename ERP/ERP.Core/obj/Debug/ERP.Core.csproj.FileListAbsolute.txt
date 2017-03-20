@@ -1,0 +1,9 @@
+D:\ERP\trunk\ERP\DietPlanner.Core\bin\Debug\ERP.Core.dll
+D:\ERP\trunk\ERP\DietPlanner.Core\bin\Debug\ERP.Core.pdb
+D:\ERP\trunk\ERP\DietPlanner.Core\obj\Debug\ERP.Core.csprojResolveAssemblyReference.cache
+D:\ERP\trunk\ERP\DietPlanner.Core\obj\Debug\ERP.Core.dll
+D:\ERP\trunk\ERP\DietPlanner.Core\obj\Debug\ERP.Core.pdb
+D:\ERP\trunk\ERP\ERP.Core\bin\Debug\ERP.Core.dll
+D:\ERP\trunk\ERP\ERP.Core\bin\Debug\ERP.Core.pdb
+D:\ERP\trunk\ERP\ERP.Core\obj\Debug\ERP.Core.dll
+D:\ERP\trunk\ERP\ERP.Core\obj\Debug\ERP.Core.pdb
