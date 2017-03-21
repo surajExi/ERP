@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ERPModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Tbl_UserMaster">
+    <Key>
+      <PropertyRef Name="UserMasterID" />
+    </Key>
+    <Property Name="UserMasterID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserID" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="UserName" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="UserType" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="EmailAddress" Type="varchar" MaxLength="50" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="CreatedBy" Type="bigint" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="ModifiedBy" Type="bigint" />
+    <Property Name="ModifiedDate" Type="datetime" />
+    <Property Name="LastLoginDateTime" Type="datetime" />
+    <Property Name="IPAddress" Type="varchar" MaxLength="50" />
+    <Property Name="MacAddress" Type="varchar" MaxLength="100" />
+    <Property Name="Password" Type="nvarchar(max)" />
+    <Property Name="ResetPassword" Type="bit" />
+    <Property Name="ResetPasswordDate" Type="datetime" />
+    <Property Name="SALT" Type="nvarchar(max)" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'ERP.dbo.VW_UserDetails' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="VW_UserDetails">
+    <Key>
+      <PropertyRef Name="UserMasterID" />
+      <PropertyRef Name="UserID" />
+      <PropertyRef Name="UserName" />
+      <PropertyRef Name="IsActive" />
+      <PropertyRef Name="CreatedBy" />
+      <PropertyRef Name="CreatedDate" />
+      <PropertyRef Name="UserType" />
+    </Key>
+    <Property Name="UserMasterID" Type="bigint" Nullable="false" />
+    <Property Name="UserID" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="UserName" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="EmailAddress" Type="varchar" MaxLength="50" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+    <Property Name="CreatedBy" Type="bigint" Nullable="false" />
+    <Property Name="CreatedByName" Type="varchar" MaxLength="100" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="ModifiedBy" Type="bigint" />
+    <Property Name="LastLoginDateTime" Type="datetime" />
+    <Property Name="IPAddress" Type="varchar" MaxLength="50" />
+    <Property Name="MacAddress" Type="varchar" MaxLength="100" />
+    <Property Name="ModifiedByName" Type="varchar" MaxLength="100" />
+    <Property Name="ModifiedDate" Type="datetime" />
+    <Property Name="Password" Type="nvarchar(max)" />
+    <Property Name="ResetPassword" Type="bit" />
+    <Property Name="ResetPasswordDate" Type="datetime" />
+    <Property Name="Salt" Type="nvarchar(max)" />
+    <Property Name="UserType" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="ERPModelStoreContainer">
+    <EntitySet Name="Tbl_UserMaster" EntityType="Self.Tbl_UserMaster" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VW_UserDetails" EntityType="Self.VW_UserDetails" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [VW_UserDetails].[UserMasterID] AS [UserMasterID], 
+    [VW_UserDetails].[UserID] AS [UserID], 
+    [VW_UserDetails].[UserName] AS [UserName], 
+    [VW_UserDetails].[EmailAddress] AS [EmailAddress], 
+    [VW_UserDetails].[IsActive] AS [IsActive], 
+    [VW_UserDetails].[CreatedBy] AS [CreatedBy], 
+    [VW_UserDetails].[CreatedByName] AS [CreatedByName], 
+    [VW_UserDetails].[CreatedDate] AS [CreatedDate], 
+    [VW_UserDetails].[ModifiedBy] AS [ModifiedBy], 
+    [VW_UserDetails].[LastLoginDateTime] AS [LastLoginDateTime], 
+    [VW_UserDetails].[IPAddress] AS [IPAddress], 
+    [VW_UserDetails].[MacAddress] AS [MacAddress], 
+    [VW_UserDetails].[ModifiedByName] AS [ModifiedByName], 
+    [VW_UserDetails].[ModifiedDate] AS [ModifiedDate], 
+    [VW_UserDetails].[Password] AS [Password], 
+    [VW_UserDetails].[ResetPassword] AS [ResetPassword], 
+    [VW_UserDetails].[ResetPasswordDate] AS [ResetPasswordDate], 
+    [VW_UserDetails].[Salt] AS [Salt], 
+    [VW_UserDetails].[UserType] AS [UserType]
+    FROM [dbo].[VW_UserDetails] AS [VW_UserDetails]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

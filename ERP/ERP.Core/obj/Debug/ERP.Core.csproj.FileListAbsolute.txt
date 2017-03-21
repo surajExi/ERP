@@ -3,7 +3,12 @@ D:\ERP\trunk\ERP\DietPlanner.Core\bin\Debug\ERP.Core.pdb
 D:\ERP\trunk\ERP\DietPlanner.Core\obj\Debug\ERP.Core.csprojResolveAssemblyReference.cache
 D:\ERP\trunk\ERP\DietPlanner.Core\obj\Debug\ERP.Core.dll
 D:\ERP\trunk\ERP\DietPlanner.Core\obj\Debug\ERP.Core.pdb
+D:\ERP\trunk\ERP\ERP.Core\bin\Debug\ERP.Core.dll.config
 D:\ERP\trunk\ERP\ERP.Core\bin\Debug\ERP.Core.dll
 D:\ERP\trunk\ERP\ERP.Core\bin\Debug\ERP.Core.pdb
+D:\ERP\trunk\ERP\ERP.Core\bin\Debug\EntityFramework.dll
+D:\ERP\trunk\ERP\ERP.Core\bin\Debug\EntityFramework.SqlServer.dll
+D:\ERP\trunk\ERP\ERP.Core\bin\Debug\EntityFramework.xml
+D:\ERP\trunk\ERP\ERP.Core\bin\Debug\EntityFramework.SqlServer.xml
 D:\ERP\trunk\ERP\ERP.Core\obj\Debug\ERP.Core.dll
 D:\ERP\trunk\ERP\ERP.Core\obj\Debug\ERP.Core.pdb
