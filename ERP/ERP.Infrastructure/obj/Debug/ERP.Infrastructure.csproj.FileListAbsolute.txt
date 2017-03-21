@@ -8,13 +8,15 @@ D:\ERP\trunk\ERP\DietPlanner.Infrastructure\bin\Debug\EntityFramework.xml
 D:\ERP\trunk\ERP\DietPlanner.Infrastructure\obj\Debug\ERP.Infrastructure.csprojResolveAssemblyReference.cache
 D:\ERP\trunk\ERP\DietPlanner.Infrastructure\obj\Debug\ERP.Infrastructure.dll
 D:\ERP\trunk\ERP\DietPlanner.Infrastructure\obj\Debug\ERP.Infrastructure.pdb
+D:\ERP\trunk\ERP\ERP.Infrastructure\obj\Debug\ERP.Infrastructure.csprojResolveAssemblyReference.cache
 D:\ERP\trunk\ERP\ERP.Infrastructure\bin\Debug\ERP.Infrastructure.dll.config
 D:\ERP\trunk\ERP\ERP.Infrastructure\bin\Debug\ERP.Infrastructure.dll
 D:\ERP\trunk\ERP\ERP.Infrastructure\bin\Debug\ERP.Infrastructure.pdb
 D:\ERP\trunk\ERP\ERP.Infrastructure\bin\Debug\EntityFramework.dll
+D:\ERP\trunk\ERP\ERP.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
 D:\ERP\trunk\ERP\ERP.Infrastructure\bin\Debug\ERP.Core.dll
 D:\ERP\trunk\ERP\ERP.Infrastructure\bin\Debug\ERP.Core.pdb
 D:\ERP\trunk\ERP\ERP.Infrastructure\bin\Debug\EntityFramework.xml
-D:\ERP\trunk\ERP\ERP.Infrastructure\obj\Debug\ERP.Infrastructure.csprojResolveAssemblyReference.cache
+D:\ERP\trunk\ERP\ERP.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
 D:\ERP\trunk\ERP\ERP.Infrastructure\obj\Debug\ERP.Infrastructure.dll
 D:\ERP\trunk\ERP\ERP.Infrastructure\obj\Debug\ERP.Infrastructure.pdb
