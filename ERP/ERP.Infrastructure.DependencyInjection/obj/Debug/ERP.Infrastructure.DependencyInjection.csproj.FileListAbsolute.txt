@@ -15,6 +15,7 @@ D:\ERP\trunk\ERP\DietPlanner.Infrastructure.DependencyInjection\bin\Debug\Ninjec
 D:\ERP\trunk\ERP\DietPlanner.Infrastructure.DependencyInjection\bin\Debug\NLog.xml
 D:\ERP\trunk\ERP\DietPlanner.Infrastructure.DependencyInjection\obj\Debug\ERP.Infrastructure.DependencyInjection.dll
 D:\ERP\trunk\ERP\DietPlanner.Infrastructure.DependencyInjection\obj\Debug\ERP.Infrastructure.DependencyInjection.pdb
+D:\ERP\trunk\ERP\ERP.Infrastructure.DependencyInjection\obj\Debug\ERP.Infrastructure.DependencyInjection.csprojResolveAssemblyReference.cache
 D:\ERP\trunk\ERP\ERP.Infrastructure.DependencyInjection\bin\Debug\ERP.Infrastructure.DependencyInjection.dll
 D:\ERP\trunk\ERP\ERP.Infrastructure.DependencyInjection\bin\Debug\ERP.Infrastructure.DependencyInjection.pdb
 D:\ERP\trunk\ERP\ERP.Infrastructure.DependencyInjection\bin\Debug\ERP.Core.dll
@@ -23,12 +24,13 @@ D:\ERP\trunk\ERP\ERP.Infrastructure.DependencyInjection\bin\Debug\ERP.Infrastruc
 D:\ERP\trunk\ERP\ERP.Infrastructure.DependencyInjection\bin\Debug\Microsoft.Web.Infrastructure.dll
 D:\ERP\trunk\ERP\ERP.Infrastructure.DependencyInjection\bin\Debug\Ninject.dll
 D:\ERP\trunk\ERP\ERP.Infrastructure.DependencyInjection\bin\Debug\WebActivatorEx.dll
+D:\ERP\trunk\ERP\ERP.Infrastructure.DependencyInjection\bin\Debug\EntityFramework.dll
 D:\ERP\trunk\ERP\ERP.Infrastructure.DependencyInjection\bin\Debug\NLog.dll
 D:\ERP\trunk\ERP\ERP.Infrastructure.DependencyInjection\bin\Debug\ERP.Core.pdb
 D:\ERP\trunk\ERP\ERP.Infrastructure.DependencyInjection\bin\Debug\ERP.Infrastructure.Logging.pdb
 D:\ERP\trunk\ERP\ERP.Infrastructure.DependencyInjection\bin\Debug\ERP.Infrastructure.pdb
 D:\ERP\trunk\ERP\ERP.Infrastructure.DependencyInjection\bin\Debug\Ninject.xml
+D:\ERP\trunk\ERP\ERP.Infrastructure.DependencyInjection\bin\Debug\EntityFramework.xml
 D:\ERP\trunk\ERP\ERP.Infrastructure.DependencyInjection\bin\Debug\NLog.xml
-D:\ERP\trunk\ERP\ERP.Infrastructure.DependencyInjection\obj\Debug\ERP.Infrastructure.DependencyInjection.csprojResolveAssemblyReference.cache
 D:\ERP\trunk\ERP\ERP.Infrastructure.DependencyInjection\obj\Debug\ERP.Infrastructure.DependencyInjection.dll
 D:\ERP\trunk\ERP\ERP.Infrastructure.DependencyInjection\obj\Debug\ERP.Infrastructure.DependencyInjection.pdb

@@ -7,6 +7,7 @@ using ERP.Core.Interfaces;
 using ERP.Infrastructure.Logging;
 using ERP.Infrastructure.Services;
 using Ninject.Modules;
+using ERP.Core.Interfaces.Services;
 
 namespace ERP.Infrastructure.DependencyInjection
 {
@@ -16,7 +17,7 @@ namespace ERP.Infrastructure.DependencyInjection
        {
            //TO DO BINDINGS..
            Bind<IDemoInterfaceService>().To<DemoInterfaceImplementationService>();
-          
+           Bind<IUser>().To<UserService>();
        }
     }
 }

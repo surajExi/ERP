@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ERP.Core.Interfaces.Repository;
-using ERP.Infrastructure.Repository;
 using Ninject.Modules;
+using ERP.Infrastructure.Repository;
 
 namespace ERP.Infrastructure.DependencyInjection
 {
@@ -15,6 +15,7 @@ namespace ERP.Infrastructure.DependencyInjection
         {
             // TO DO BINDINGS..
             Bind<IDemoInterfaceRepository>().To<DemoInterfaceImplementationRepository>();
+            Bind<IUserRepository>().To<UserRepository>();
         }
     }
 }
