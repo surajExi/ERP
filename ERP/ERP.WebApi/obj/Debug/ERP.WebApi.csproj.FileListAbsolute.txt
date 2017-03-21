@@ -76,11 +76,12 @@ D:\ERP\trunk\ERP\DietPlanner.WebApi\bin\Microsoft.Owin.Security.Twitter.xml
 D:\ERP\trunk\ERP\DietPlanner.WebApi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\ERP\trunk\ERP\DietPlanner.WebApi\obj\Debug\ERP.WebApi.dll
 D:\ERP\trunk\ERP\DietPlanner.WebApi\obj\Debug\ERP.WebApi.pdb
-D:\ERP\trunk\ERP\ERP.WebApi\bin\EntityFramework.dll
+D:\ERP\trunk\ERP\ERP.WebApi\obj\Debug\ERP.WebApi.csprojResolveAssemblyReference.cache
 D:\ERP\trunk\ERP\ERP.WebApi\bin\ERP.WebApi.dll.config
 D:\ERP\trunk\ERP\ERP.WebApi\bin\ERP.WebApi.dll
 D:\ERP\trunk\ERP\ERP.WebApi\bin\ERP.WebApi.pdb
 D:\ERP\trunk\ERP\ERP.WebApi\bin\Antlr3.Runtime.dll
+D:\ERP\trunk\ERP\ERP.WebApi\bin\EntityFramework.dll
 D:\ERP\trunk\ERP\ERP.WebApi\bin\EntityFramework.SqlServer.dll
 D:\ERP\trunk\ERP\ERP.WebApi\bin\ERP.Core.dll
 D:\ERP\trunk\ERP\ERP.WebApi\bin\ERP.Infrastructure.DependencyInjection.dll
@@ -151,6 +152,5 @@ D:\ERP\trunk\ERP\ERP.WebApi\bin\Microsoft.Owin.Security.OAuth.xml
 D:\ERP\trunk\ERP\ERP.WebApi\bin\Microsoft.Owin.Security.Google.xml
 D:\ERP\trunk\ERP\ERP.WebApi\bin\Microsoft.Owin.Security.Twitter.xml
 D:\ERP\trunk\ERP\ERP.WebApi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-D:\ERP\trunk\ERP\ERP.WebApi\obj\Debug\ERP.WebApi.csprojResolveAssemblyReference.cache
 D:\ERP\trunk\ERP\ERP.WebApi\obj\Debug\ERP.WebApi.dll
 D:\ERP\trunk\ERP\ERP.WebApi\obj\Debug\ERP.WebApi.pdb
