@@ -238,10 +238,6 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ERP.WebApi\ERP.WebApi.csproj">
-      <Project>{2a1fbf3d-4c70-4cc2-9fac-af098ac8a728}</Project>
-      <Name>ERP.WebApi</Name>
-    </ProjectReference>
     <ProjectReference Include="..\ERP.Infrastructure.Logging\ERP.Infrastructure.Logging.csproj">
       <Project>{e8aa04bf-8984-478b-9f46-6a5d3d45f87b}</Project>
       <Name>ERP.Infrastructure.Logging</Name>
